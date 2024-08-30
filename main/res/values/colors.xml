@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tag_button_office">#6200EE</color> <!-- Purple -->
+    <color name="tag_button_home">#FF6F00</color> <!-- Orange -->
+    <color name="tag_button_urgent">#D32F2F</color> <!-- Red -->
+    <color name="tag_button_work">#388E3C</color> <!-- Green -->
+    <color name="tag_button_selected">#FF4081</color> <!-- Pink for selected state -->
+</resources>

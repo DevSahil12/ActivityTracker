@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/task_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_your_working_plan_here"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp" />
+
+    <TextView
+        android:id="@+id/task_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/personal_type"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/date_time_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/est_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:padding="8dp"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/est_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Time"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:padding="8dp"
+            android:layout_marginStart="8dp"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/task_list_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter task name"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/task_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+
+        <LinearLayout
+            android:id="@+id/task_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:id="@+id/monthplan"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Creating this month's work plan"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/task_item1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <CheckBox
+                android:id="@+id/weekPlan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Creating this week's work plan"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/task_item2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:id="@+id/workPlan"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Creating today's work plan"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/task_item3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:id="@+id/yearPlan"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Creating this year's work plan"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tag_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tag"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:id="@+id/tag_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/tag_button_office"
+            android:padding="8dp"
+            android:text="Office"
+            android:id="@+id/office_tag"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/tag_button_home"
+            android:padding="8dp"
+            android:text="Home"
+            android:id="@+id/home_tag"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/tag_button_urgent"
+            android:padding="8dp"
+            android:text="Urgent"
+            android:id="@+id/urgent_tag"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/tag_button_work"
+            android:padding="8dp"
+            android:text="Work"
+            android:id="@+id/work_tag"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:gravity="center" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/save"
+            android:text="Add Task in the field"
+
+
+            />
+    </LinearLayout>
+</LinearLayout>

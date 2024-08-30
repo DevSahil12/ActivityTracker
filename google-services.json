@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1036534905665",
+    "project_id": "daily-dose-4b31e",
+    "storage_bucket": "daily-dose-4b31e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036534905665:android:c96b4eb3410abe8c5cbfc0",
+        "android_client_info": {
+          "package_name": "com.master.dailydose"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSSxUmsnxnSg8U0XFim5kBVu8umfEgoAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

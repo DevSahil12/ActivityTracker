@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Daily Dose</string>
+    <string name="title_activity_front_page">FrontPage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="create_your_working_plan_here">Create Your Working Plan Here</string>
+    <string name="personal_type">Personal type</string>
+    <!-- In your res/values/styles.xml -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_task">Add Task</string>
+
+</resources>

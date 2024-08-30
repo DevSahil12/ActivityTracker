@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/display_task_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/display_task_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task Time"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/display_task_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task Date"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/darker_gray" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+
+                <TextView
+                    android:id="@+id/display_tag_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/tag_background"
+                    android:padding="4dp"
+                    android:text="Month Plan"
+                    android:textColor="@android:color/holo_purple"
+                    android:visibility="gone" />
+
+
+                <TextView
+                    android:id="@+id/display_tag_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/tag_background"
+                    android:padding="4dp"
+                    android:text="Week Plan"
+                    android:textColor="@android:color/holo_orange_light"
+                    android:visibility="gone" />
+
+
+                <TextView
+                    android:id="@+id/display_tag_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/tag_background"
+                    android:padding="4dp"
+                    android:text="Day Plan"
+                    android:textColor="@android:color/holo_red_light"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/display_tag_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/tag_background"
+                    android:padding="4dp"
+                    android:text="Year Plan"
+                    android:textColor="@android:color/holo_green_light"
+                    android:visibility="gone" />
+
+
+                <TextView
+                    android:id="@+id/display_tag_office"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/tag_background"
+                    android:padding="4dp"
+                    android:text="Office"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:visibility="gone" />
+
+
+                <TextView
+                    android:id="@+id/display_tag_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/tag_background"
+                    android:padding="4dp"
+                    android:text="Home"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:visibility="gone" />
+
+
+                <TextView
+                    android:id="@+id/display_tag_urgent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/tag_background"
+                    android:padding="4dp"
+                    android:text="Urgent"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:visibility="gone" />
+
+
+                <TextView
+                    android:id="@+id/display_tag_work"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/tag_background"
+                    android:padding="4dp"
+                    android:text="Work"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
